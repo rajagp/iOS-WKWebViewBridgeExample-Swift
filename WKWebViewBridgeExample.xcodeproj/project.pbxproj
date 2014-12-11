@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02549F141A364DB700FF51B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02549F131A364DB700FF51B4 /* AppDelegate.swift */; };
+		02549F161A364DB700FF51B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02549F151A364DB700FF51B4 /* ViewController.swift */; };
+		02549F191A364DB700FF51B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02549F171A364DB700FF51B4 /* Main.storyboard */; };
+		02549F1B1A364DB700FF51B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02549F1A1A364DB700FF51B4 /* Images.xcassets */; };
+		02549F1E1A364DB700FF51B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02549F1C1A364DB700FF51B4 /* LaunchScreen.xib */; };
+		02549F2A1A364DB700FF51B4 /* WKWebViewBridgeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02549F291A364DB700FF51B4 /* WKWebViewBridgeExampleTests.swift */; };
+		02549F391A3734F600FF51B4 /* ClickMeEventRegister.js in Resources */ = {isa = PBXBuildFile; fileRef = 02549F381A3734F600FF51B4 /* ClickMeEventRegister.js */; };
+		02549F3A1A3734F600FF51B4 /* ClickMeEventRegister.js in Resources */ = {isa = PBXBuildFile; fileRef = 02549F381A3734F600FF51B4 /* ClickMeEventRegister.js */; };
+		02549F3C1A373B1D00FF51B4 /* TestFile.html in Resources */ = {isa = PBXBuildFile; fileRef = 02549F3B1A373B1D00FF51B4 /* TestFile.html */; };
+		02549F3D1A373B1D00FF51B4 /* TestFile.html in Resources */ = {isa = PBXBuildFile; fileRef = 02549F3B1A373B1D00FF51B4 /* TestFile.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02549F241A364DB700FF51B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02549F061A364DB700FF51B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02549F0D1A364DB700FF51B4;
+			remoteInfo = WKWebViewBridgeExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02549F0E1A364DB700FF51B4 /* WKWebViewBridgeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewBridgeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02549F121A364DB700FF51B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02549F131A364DB700FF51B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02549F151A364DB700FF51B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02549F181A364DB700FF51B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02549F1A1A364DB700FF51B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02549F1D1A364DB700FF51B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		02549F231A364DB700FF51B4 /* WKWebViewBridgeExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewBridgeExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02549F281A364DB700FF51B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02549F291A364DB700FF51B4 /* WKWebViewBridgeExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewBridgeExampleTests.swift; sourceTree = "<group>"; };
+		02549F381A3734F600FF51B4 /* ClickMeEventRegister.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ClickMeEventRegister.js; path = ../ClickMeEventRegister.js; sourceTree = "<group>"; };
+		02549F3B1A373B1D00FF51B4 /* TestFile.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TestFile.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02549F0B1A364DB700FF51B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02549F201A364DB700FF51B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02549F051A364DB700FF51B4 = {
+			isa = PBXGroup;
+			children = (
+				02549F101A364DB700FF51B4 /* WKWebViewBridgeExample */,
+				02549F261A364DB700FF51B4 /* WKWebViewBridgeExampleTests */,
+				02549F0F1A364DB700FF51B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02549F0F1A364DB700FF51B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02549F0E1A364DB700FF51B4 /* WKWebViewBridgeExample.app */,
+				02549F231A364DB700FF51B4 /* WKWebViewBridgeExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02549F101A364DB700FF51B4 /* WKWebViewBridgeExample */ = {
+			isa = PBXGroup;
+			children = (
+				02549F131A364DB700FF51B4 /* AppDelegate.swift */,
+				02549F151A364DB700FF51B4 /* ViewController.swift */,
+				02549F171A364DB700FF51B4 /* Main.storyboard */,
+				02549F1A1A364DB700FF51B4 /* Images.xcassets */,
+				02549F1C1A364DB700FF51B4 /* LaunchScreen.xib */,
+				02549F111A364DB700FF51B4 /* Supporting Files */,
+			);
+			path = WKWebViewBridgeExample;
+			sourceTree = "<group>";
+		};
+		02549F111A364DB700FF51B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02549F3B1A373B1D00FF51B4 /* TestFile.html */,
+				02549F381A3734F600FF51B4 /* ClickMeEventRegister.js */,
+				02549F121A364DB700FF51B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02549F261A364DB700FF51B4 /* WKWebViewBridgeExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				02549F291A364DB700FF51B4 /* WKWebViewBridgeExampleTests.swift */,
+				02549F271A364DB700FF51B4 /* Supporting Files */,
+			);
+			path = WKWebViewBridgeExampleTests;
+			sourceTree = "<group>";
+		};
+		02549F271A364DB700FF51B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02549F281A364DB700FF51B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02549F0D1A364DB700FF51B4 /* WKWebViewBridgeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02549F2D1A364DB700FF51B4 /* Build configuration list for PBXNativeTarget "WKWebViewBridgeExample" */;
+			buildPhases = (
+				02549F0A1A364DB700FF51B4 /* Sources */,
+				02549F0B1A364DB700FF51B4 /* Frameworks */,
+				02549F0C1A364DB700FF51B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebViewBridgeExample;
+			productName = WKWebViewBridgeExample;
+			productReference = 02549F0E1A364DB700FF51B4 /* WKWebViewBridgeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02549F221A364DB700FF51B4 /* WKWebViewBridgeExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02549F301A364DB700FF51B4 /* Build configuration list for PBXNativeTarget "WKWebViewBridgeExampleTests" */;
+			buildPhases = (
+				02549F1F1A364DB700FF51B4 /* Sources */,
+				02549F201A364DB700FF51B4 /* Frameworks */,
+				02549F211A364DB700FF51B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02549F251A364DB700FF51B4 /* PBXTargetDependency */,
+			);
+			name = WKWebViewBridgeExampleTests;
+			productName = WKWebViewBridgeExampleTests;
+			productReference = 02549F231A364DB700FF51B4 /* WKWebViewBridgeExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02549F061A364DB700FF51B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lunaria Software LLC";
+				TargetAttributes = {
+					02549F0D1A364DB700FF51B4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					02549F221A364DB700FF51B4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 02549F0D1A364DB700FF51B4;
+					};
+				};
+			};
+			buildConfigurationList = 02549F091A364DB700FF51B4 /* Build configuration list for PBXProject "WKWebViewBridgeExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02549F051A364DB700FF51B4;
+			productRefGroup = 02549F0F1A364DB700FF51B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02549F0D1A364DB700FF51B4 /* WKWebViewBridgeExample */,
+				02549F221A364DB700FF51B4 /* WKWebViewBridgeExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02549F0C1A364DB700FF51B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02549F3C1A373B1D00FF51B4 /* TestFile.html in Resources */,
+				02549F191A364DB700FF51B4 /* Main.storyboard in Resources */,
+				02549F391A3734F600FF51B4 /* ClickMeEventRegister.js in Resources */,
+				02549F1E1A364DB700FF51B4 /* LaunchScreen.xib in Resources */,
+				02549F1B1A364DB700FF51B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02549F211A364DB700FF51B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02549F3D1A373B1D00FF51B4 /* TestFile.html in Resources */,
+				02549F3A1A3734F600FF51B4 /* ClickMeEventRegister.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02549F0A1A364DB700FF51B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02549F161A364DB700FF51B4 /* ViewController.swift in Sources */,
+				02549F141A364DB700FF51B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02549F1F1A364DB700FF51B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02549F2A1A364DB700FF51B4 /* WKWebViewBridgeExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02549F251A364DB700FF51B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02549F0D1A364DB700FF51B4 /* WKWebViewBridgeExample */;
+			targetProxy = 02549F241A364DB700FF51B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02549F171A364DB700FF51B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02549F181A364DB700FF51B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02549F1C1A364DB700FF51B4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02549F1D1A364DB700FF51B4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02549F2B1A364DB700FF51B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02549F2C1A364DB700FF51B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02549F2E1A364DB700FF51B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKWebViewBridgeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02549F2F1A364DB700FF51B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKWebViewBridgeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02549F311A364DB700FF51B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WKWebViewBridgeExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewBridgeExample.app/WKWebViewBridgeExample";
+			};
+			name = Debug;
+		};
+		02549F321A364DB700FF51B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WKWebViewBridgeExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewBridgeExample.app/WKWebViewBridgeExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02549F091A364DB700FF51B4 /* Build configuration list for PBXProject "WKWebViewBridgeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02549F2B1A364DB700FF51B4 /* Debug */,
+				02549F2C1A364DB700FF51B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02549F2D1A364DB700FF51B4 /* Build configuration list for PBXNativeTarget "WKWebViewBridgeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02549F2E1A364DB700FF51B4 /* Debug */,
+				02549F2F1A364DB700FF51B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02549F301A364DB700FF51B4 /* Build configuration list for PBXNativeTarget "WKWebViewBridgeExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02549F311A364DB700FF51B4 /* Debug */,
+				02549F321A364DB700FF51B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02549F061A364DB700FF51B4 /* Project object */;
+}
